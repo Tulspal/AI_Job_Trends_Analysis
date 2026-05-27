@@ -6,8 +6,9 @@ import seaborn as sns
 # load the data
 df = pd.read_csv('ai_job_trends_dataset.csv')
 print("Dataset loaded Sucessfully")
-print("Data shape:", df.shape)
+
 # Data Profiling & Inspection
+print("Data shape:", df.shape)
 print("\nColumn Names:")
 print(df.columns.tolist())
 # First Look at the data
